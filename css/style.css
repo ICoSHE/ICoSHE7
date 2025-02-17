@@ -336,6 +336,8 @@ ul.coundown li span {
 	font-family: 'Roboto';
 	font-size: 17px;
 	color: #222222;
+	text-align: justify;
+
 }
 .about-section p.small {
 	font-size: 14px;
