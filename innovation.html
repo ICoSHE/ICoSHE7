@@ -1,140 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 Error</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-
-  <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding-left: 175px;
-}
-
-.container>img {
-  padding-right: 175px;
-}
-
-.error {
-  width: 50%;
-  text-align: left;
-  margin-right: 2rem;
-}
-
-h1 {
-  font-size: 36px;
-  font-weight: 600;
-  color: #2d2b2b;
-  margin-top: 2rem;
-}
-
-p {
-  font-size: 20px;
-  font-family: "eurostile", sans-serif;
-  margin-top: 1rem;
-  line-height: 1.5;
-}
-
-.cta {
-  font-weight: 500;
-  margin-top: 2rem;
-}
-
-.cta-back {
-  padding: 12px 20px;
-  font-size: 18px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-decoration: none;
-  position: relative;
-  overflow: hidden;
-}
-
-.cta-back::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.cta-back:hover::before {
-  transform: translateX(100%);
-}
-
-.cta-back:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.cta-back:active {
-  transform: scale(0.9);
-  transition: transform 0.2s ease;
-}
-
-.hero-img {
-  height: 70vh;
-  animation: MoveUpDown 2s ease-in-out infinite alternate-reverse both;
-}
-
-@keyframes MoveUpDown {
-  0% {
-    transform: translateY(10px);
-  }
-
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .error {
-    width: 80%;
-    margin-right: 0;
-    margin-bottom: 2rem;
-    text-align: justify;
-  }
-}
-  </style>
+	<meta charset="UTF-8" />
+	<title>Digital Nexus Exhibition | ICoHSE7</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
 </head>
-
 <body>
-  <section class="container">
-    <div class="error">
-      <h1>WILL BACK SOON!</h1>
-      <p>Sorry! This page are under maintenance :(</p>
-      <div class="cta">
-        <a href="index.html"> <button class="cta-back" href="index.html">Go Back</button> </a>
-      </div>
-    </div>
-    <img src="https://github.com/smthari/404-page-using-html-css/blob/Starter/Images/404.png?raw=true" alt="home image" class="hero-img" />
-  </section>
-</body>
+	
+	
+	<nav class="navbar navbar-default header header-navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Awesome Image"/></a>
+			</div>
 
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse  navbar-collapse" id="main-menu">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="about.html">About</a>
+						<ul class="sub-menu">							
+							<li><a href="committee.html">Our Committee</a></li>
+							<li><a href="organizer.html">Organizer</a></li>
+						</ul><!-- /.sub-menu -->
+					</li>
+					<li><a href="keynote_speaker.html">Keynote Speaker</a></li>
+					<li><a href="theme.html">Scope</a></li>
+					<li>
+						<a href="#">Registration</a>
+						<ul class="sub-menu">							
+							<li><a href="fee.html">Fees & Payment</a></li>
+							<li><a href="important_date.html">Important Date</a></li>
+							<li><a href="registration.html">Submission</a></li>
+						</ul><!-- /.sub-menu -->
+					</li>
+					<li><a href="innovation.html">Digital Nexus Exhibition</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container -->
+	</nav>
+	
+	<section class="page-title">
+		<div class="container">
+			<h2>Digital Nexus Exhibition</h2>
+			<ul class="list-inline">
+				<li><a href="#">Home</a></li>
+				<li><a href="#"><i class="fa fa-angle-right"></i> Digital Nexus Exhibition </a></li>
+			</ul><!-- /.list-inline -->
+		</div><!-- /.container -->
+	</section><!-- /.page-title -->
+
+
+
+	<section class="about-section sec-pad">
+		<div class="container">
+			<center> <p class="black"> This exhibition is target to increase awareness of the importance of integration between the humanities and social sciences in solving current issues as well as contributing to the development of a more inclusive and competitive society.  </p> </center> <br><br>
+			<div class="col-md-6">
+				<img src="img/exhibition.jpg" alt="Awesome Image"/>
+			</div><!-- /.col-md-6 -->
+			<div class="col-md-6">
+				<br />
+				<br />
+				<h4>Connected Futures:</h4>
+				<h3>Sustainable Societies through Digital Innovation</h3>
+				<br />
+				<p class="black">Our theme </p>
+				<ul>
+					<li>Emerging Media Technologies and Applications</li>
+					<li>Digital Communication and Media Studies</li>
+					<li>Advancements in Information and Communication Technologies</li>
+					<li>Technology-Driven Language and Linguistics Evolution</li>
+					<li>Psychology and Counselling in the Digital Age</li>
+					<li>Globalisation, Technology, and Societal Impact</li>
+					<li>Education in the Digital Era: Technological Transformations</li>
+
+				</ul>
+				<br />
+				<a href="#" class="btn">Register Now!</a>
+
+			</div><!-- /.col-md-6 -->
+
+		</div><!-- /.container -->
+	</section><!-- /.about-section -->
+
+	<section class="counter-section has-overlay">
+		<div class="container">
+			<div class="sec-title text-center">
+				<h2> <font style="color: antiquewhite;"> Categories </font></h2>
+				<p> <font style="font-size: 16px;"> Consist of 3 Main Categories </font></p>
+			</div><!-- /.sec-title text-center -->
+			<div class="col-md-4 text-center">
+				<i class="fa fa-bolt"></i>
+				<p>Cat A: Junior Innovator<br> (Secondary School) </p> 
+			</div><!-- /.col-md-3 -->
+			<div class="col-md-4 text-center">
+				<i class="fa fa-bolt"></i>
+				<p>Cat B: Aspiring Innovator <br> (University Students)</p>
+			</div><!-- /.col-md-3 -->
+			<div class="col-md-4 text-center">
+				<i class="fa fa-bolt"></i>
+				<p>Cat C: Professional Innovator <br> (Professional / Researcher) </p>
+			</div><!-- /.col-md-3 -->
+		</div><!-- /.container -->
+	</section><!-- /.counter-section -->
+
+	<section class="choose-a-plan-section sec-pad">
+		<div class="container">
+			<div class="sec-title text-center">
+				<h2>Fee</h2>
+				<p> <font style="font-size: 22px;">4 team members maximum </font></p>
+			</div><!-- /.sec-title text-center -->
+			<div class="row">
+				<div class="col-md-4">
+					<div class="single-choose-a-plan-section">
+						<div class="top-box">
+							<div class="name">
+								<h3>Cat A: Junior Innovator</h3>
+							</div><!-- /.name -->
+							<div class="price">
+								RM50.00
+							</div><!-- /.price -->
+						</div><!-- /.top-box -->
+						<ul>
+							<li><i class="fa fa-users"></i> Secondary School</li>
+							<li><i class="fa fa-users"></i> Kolej Vokasional</li>
+						</ul>
+					</div><!-- /.single-choose-a-plan-section -->
+				</div><!-- /.col-md-4 -->
+				<div class="col-md-4">
+					<div class="single-choose-a-plan-section">
+						<div class="top-box">
+							<div class="name">
+								<h3>Cat B: Aspiring Innovator</h3>
+							</div><!-- /.name -->
+							<div class="price">
+								RM80.00
+							</div><!-- /.price -->
+						</div><!-- /.top-box -->
+						<ul>
+							<li><i class="fa fa-users"></i> Tertiary Education (University / College) </li>
+							<li><i class="fa fa-users"></i> Polytechnic  </li>
+							<li><i class="fa fa-users"></i> Community College  </li>
+
+						</ul>
+					</div><!-- /.single-choose-a-plan-section -->
+				</div><!-- /.col-md-4 -->
+				<div class="col-md-4">
+					<div class="single-choose-a-plan-section">
+						<div class="top-box">
+							<div class="name">
+								<h3>Cat C: Professional Innovator</h3>
+							</div><!-- /.name -->
+							<div class="price">
+								RM100.00
+							</div><!-- /.price -->
+						</div><!-- /.top-box -->
+						<ul>
+							<li><i class="fa fa-users"></i> Academicians </li>
+							<li><i class="fa fa-users"></i> Researcher</li>
+							<li><i class="fa fa-users"></i> Industrial Expert</li>
+						</ul>
+					</div><!-- /.single-choose-a-plan-section -->
+				</div><!-- /.col-md-4 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /.choose-a-plan-section -->
+
+	<section class="schedule-section sec-pad">
+		<div class="container">
+			<div class="sec-title text-center light">
+				<h2>Important Date</h2>
+			</div><!-- /.sec-title text-center -->
+			<section class="icohse_dateline">
+				<div class="timeline-event">
+				  <div class="date">31st January 2025</div>
+				  <div class="event">Registration Open</div>
+				</div>
+				<div class="timeline-event">
+				  <div class="date">30th June 2025</div>
+				  <div class="event">Registration & Video Submission Dateline</div>
+				</div>
+				<div class="timeline-event">
+				  <div class="date">7th July 2025</div>
+				  <div class="event">Online judging session</div>
+				</div>
+				<div class="timeline-event">
+				  <div class="date">9th September 2025</div>
+				  <div class="event">Award Ceremony</div>
+				</div>
+			  </section>
+			  
+		</div><!-- /.container -->
+	</section><!-- /.schedule-section sec-pad -->
+
+
+	<section class="footer-bottom">
+		<div class="container">
+			<div class="left-text pull-left">
+				<p>ICoHSE 7 | 7th International Conference on the Roles of the Humanities and Social Sciences in Engineering 2025
+					&copy;  2025 All Right Reserved</p>
+			</div><!-- /.left-text pull-left -->
+		</div><!-- /.container -->
+	</section><!-- /.footer-bottom -->
+	<script src="js/jquery-latest.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/countdown.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
 </html>
