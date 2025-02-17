@@ -337,7 +337,6 @@ ul.coundown li span {
 	font-size: 17px;
 	color: #222222;
 	text-align: justify;
-
 }
 .about-section p.small {
 	font-size: 14px;
@@ -345,7 +344,7 @@ ul.coundown li span {
 }
 
 .counter-section {
-	background: #E0F4FF url(../img/parallax-1.jpg) center center no-repeat;
+	background: #dda60d url(../img/parallax-1.jpg) center center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding: 90px 0;
@@ -361,7 +360,7 @@ ul.coundown li span {
 	left:0;
 	right:0;
 	bottom:0;
-	background: #E0F4FF;
+	background: #010d46;
 	opacity: .8;
 }
 .has-overlay .container {
@@ -444,7 +443,7 @@ ul.coundown li span {
 
 
 .schedule-section {
-	background: #000 url(../img/parallax-2.png) center center no-repeat;
+	background: #99b6ec url(../img/parallax-2.png) center center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -1363,5 +1362,95 @@ footer .contact-widget ul li {
     .download_button {
         font-size: 16px;
         padding: 12px;
+    }
+}
+
+/* General Styles */
+.exhibition_body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.exhibition_header {
+    background: linear-gradient(135deg, #1e90ff, #00bcd4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.exhibition_theme {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Sections */
+.exhibition_subthemes, 
+.exhibition_dates, 
+.exhibition_categories, 
+.exhibition_fees, 
+.exhibition_judging {
+    background: #161b22;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.exhibition_subthemes h2, 
+.exhibition_dates h2, 
+.exhibition_categories h2, 
+.exhibition_fees h2, 
+.exhibition_judging h2 {
+    color: #1e90ff;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1e90ff;
+    color: #000;
+}
+
+td {
+    background-color: #0d1117;
+}
+
+/* Categories */
+.exhibition_category {
+    background: #202b38;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.exhibition_category h3 {
+    color: #00bcd4;
+}
+
+/* Mobile-Friendly */
+@media screen and (max-width: 768px) {
+    .exhibition_body {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
     }
 }
