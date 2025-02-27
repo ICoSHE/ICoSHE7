@@ -100,7 +100,7 @@
 }
 .navbar-brand {
 	height: auto;
-	padding: 39px 15px;
+	padding:  15px;
 }
 .navbar-default .navbar-nav>li>a {
 	font-size: 18px;
@@ -570,9 +570,10 @@ ul.coundown li span {
 	margin: 0;
 }
 .call-to-action p {
-	font-size: 14px;
+	font-size: 24px;
 	font-family: 'Roboto';
 	color: #ffffff;
+	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 40px;
 }
@@ -1529,4 +1530,48 @@ td {
     .journal_box {
         width: 90%;
     }
+}
+
+/* Hover effect */
+.poster_digital_nexus-image {
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.poster_digital_nexus-image:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+/* Modal styling */
+.poster_digital_nexus-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.poster_digital_nexus-modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+.poster_digital_nexus-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}
+
+.poster_digital_nexus-close:hover {
+    color: #ccc;
 }
