@@ -200,7 +200,7 @@
 /* banner section styles */
 
 .banner {
-	background: #000 url(../img/banner_home.jpg) 0 0 no-repeat;
+	background: #000 url(../img/banner_home2.jpg) 0 0 no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding-top: 230px;
@@ -935,7 +935,7 @@ footer .contact-widget ul li {
 
 .single-speaker-page {padding-bottom: 80px;}
 .single-speaker-page h2 {font-family: 'Montserrat';color: #222222;text-transform: uppercase;font-size: 36px;margin: 0;font-weight: normal;margin-bottom: 15px;}
-.single-speaker-page p {font-family: 'Roboto';font-size: 15px;color: #848484;margin: 0;margin-bottom: 30px;line-height: 26px;}
+.single-speaker-page p {font-family: 'Roboto';font-size: 15px;color: #848484;margin: 0;margin-bottom: 30px;line-height: 26px; text-align: justify;}
 .single-speaker-page ul.social li a {width: 40px;height: 40px;display: block;border: 1px solid #E6E6E6;border-radius: 50%;font-size: 15px;text-align: center;line-height: 38px;color: #848484;transition: all .4s ease;}
 .single-speaker-page ul.social li a:hover {background: #E0F4FF;color: #ffffff;}
 .skill-area{margin-top: 80px;}
