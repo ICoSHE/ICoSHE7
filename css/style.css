@@ -1575,3 +1575,41 @@ td {
 .poster_digital_nexus-close:hover {
     color: #ccc;
 }
+
+.call_sponsor_package {
+  text-align: center;
+  margin: 2em auto;
+}
+
+.call_sponsor_package a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.call_sponsor_package .sponsor-img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.call_sponsor_package .sponsor-img:hover {
+  transform: scale(1.05);
+}
+
+.call_sponsor_package .btn-view-package {
+  margin-top: 1em;
+  display: inline-block;
+  background-color: #0073e6;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.call_sponsor_package .btn-view-package:hover {
+  background-color: #005bb5;
+}
